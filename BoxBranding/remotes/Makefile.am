@@ -280,6 +280,14 @@ if LUNIX
 SUBDIRS += qviart1 qviart2 qviart3 qviart4
 endif
 
+if QVIART
+SUBDIRS += qviart1 qviart2 qviart3 qviart4 qviart5
+endif
+
+if DAGS
+SUBDIRS += qviart1 qviart2 qviart3 qviart4
+endif
+
 if EDISION
 SUBDIRS += optimuss1 optimuss2
 endif

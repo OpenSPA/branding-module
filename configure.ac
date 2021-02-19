@@ -292,6 +292,7 @@ AM_CONDITIONAL(VUPLUS, test `echo "$BRAND_OEM"` == "vuplus")
 AM_CONDITIONAL(XTREND, test `echo "$BRAND_OEM"` == "xtrend")
 AM_CONDITIONAL(DAGS, test `echo "$BRAND_OEM" | cut -b 1-4` == "dags")
 AM_CONDITIONAL(GIGABLUE, test `echo "$BRAND_OEM"` == "gigablue")
+AM_CONDITIONAL(QVIART, test `echo "$BRAND_OEM"` == "qviart")
 AM_CONDITIONAL(ODIN, test `echo "$BRAND_OEM" | cut -b 1-4` == "odin")
 AM_CONDITIONAL(MIRACLEBOX, test `echo "$BOXTYPE" | cut -b 1-2` == "mb")
 AM_CONDITIONAL(INI, test `echo "$BRAND_OEM" | cut -b 1-3` == "ini")
@@ -629,6 +630,7 @@ BoxBranding/remotes/qviart1/Makefile
 BoxBranding/remotes/qviart2/Makefile
 BoxBranding/remotes/qviart3/Makefile
 BoxBranding/remotes/qviart4/Makefile
+BoxBranding/remotes/qviart5/Makefile
 BoxBranding/remotes/sab1/Makefile
 BoxBranding/remotes/sf98/Makefile
 BoxBranding/remotes/sf108/Makefile
